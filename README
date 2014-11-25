@@ -2,13 +2,12 @@ README
 
 
  Group Members
- Video Link
+ Set up Instructions
  Setup instructions
- Testing
 
 
-Group 7
-Ticketer: Ticket selling website
+Group 1
+Ticketeer: Ticket selling website
 
 
 ~~~~~~~~~~~~~~~~~~~~ Members ~~~~~~~~~~~~~~~~
@@ -16,8 +15,6 @@ Ticketer: Ticket selling website
  Michael Yoo		mjyoo1@asu.edu
  Jessica Chou		jchou3@asu.edu
 
-
-~~~~~~~~~~~~~~~~~~~ Video Link ~~~~~~~~~~~~~~~~~~~~~~
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~ Setup Instructions ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,25 +44,5 @@ see Installing Rails or Possible Errors
       
       http://localhost:3000/
       
-
 6. - If the website does not show, either you need: a better connection, allow WebBrick internet access
 or navigate to 127.0.0.1:3000 instead of localhost:3000.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~ Testing ~~~~~~~~~~~~~~~~~~~~~~~
-Testing documents are in:
-/Ticketer/test/
-
-Testing Logs are in:
-/Ticketer/test/Testing Logs
-
-unit testing for user, email, password
-
-$ rake test:units
- 5 run, 11 assertions, 0 failures, 0 errors, 0 skips
-
-
-
-
-
-
