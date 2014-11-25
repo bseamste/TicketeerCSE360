@@ -1,0 +1,71 @@
+README
+
+
+ Group Members
+ Video Link
+ Setup instructions
+ Testing
+
+
+Group 7
+Ticketer: Ticket selling website
+
+
+~~~~~~~~~~~~~~~~~~~~ Members ~~~~~~~~~~~~~~~~
+ Brooke Seamster	bseamste@asu.edu
+ Michael Yoo		mjyoo1@asu.edu
+ Jessica Chou		jchou3@asu.edu
+
+
+~~~~~~~~~~~~~~~~~~~ Video Link ~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~ Setup Instructions ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+1. - First install Rails on your computer. 
+
+(If Rails is already installed, skip 1).
+
+For directions go to rubyinstaller.org/downloads
+see Installing Rails or Possible Errors
+
+2. - Open your project in Terminal or CMD with Rails.
+	Open Terminal or CMD and cd to C:\...\Ticketer
+
+
+3. - Use these commands to get the server in working condition and ready to start.
+	$ bundle install	
+	$ rake db:migrate RAILS_ENV=development
+	
+
+4. - This command starts the server.
+	$ rails server
+
+	
+5. - Go to the Web Browser of your choice and type the following web address.
+      
+      http://localhost:3000/
+      
+
+6. - If the website does not show, either you need: a better connection, allow WebBrick internet access
+or navigate to 127.0.0.1:3000 instead of localhost:3000.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~ Testing ~~~~~~~~~~~~~~~~~~~~~~~
+Testing documents are in:
+/Ticketer/test/
+
+Testing Logs are in:
+/Ticketer/test/Testing Logs
+
+unit testing for user, email, password
+
+$ rake test:units
+ 5 run, 11 assertions, 0 failures, 0 errors, 0 skips
+
+
+
+
+
+
