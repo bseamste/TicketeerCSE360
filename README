@@ -1,0 +1,24 @@
+
+ Group 1
+ Ticketeer: Ticket selling website
+
+
+ Brooke Seamster	bseamste@asu.edu
+ Michael Yoo		mjyoo1@asu.edu
+ Jessica Chou		jchou3@asu.edu
+
+1. Download zip from github the extract files
+
+2. Go to: rubyinstaller.org/downloads/
+
+3. Download: Ruby 2.0.0-p594 and DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+
+4. Open command Prompt with ruby
+
+5. You might need to change directory to where you extracted the zip in step 1. This can be done by typing on the command prompt with ruby cd “put directory here inside quotation marks if needed”
+
+6. Then type in bundle install
+
+7. Now type in rail s
+
+8. Go to localhost:3000 and it should run.
